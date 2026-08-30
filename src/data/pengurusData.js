@@ -2,16 +2,16 @@ export const pengurusData = {
   ketua: {
     nama: "H. Arief Saleh Sjamsu, IAI",
     jabatan: "Ketua BPD IAI Sulawesi Tenggara",
-    periode: "2015 – 2018",
+    periode: "Periode Kepengurusan",
     initials: "AS"
   },
   bpd: [
-    { nama: "Ir. H. Dinamis Yunus Makkajareng, IAI", jabatan: "Ketua Kehormatan", initials: "DY" },
-    { nama: "H. Alim Bahri, IAI", jabatan: "Wakil Ketua I (Bidang Keprofesian)", initials: "AB" },
-    { nama: "Ar. Muh. Fajar, IAI", jabatan: "Sekretaris Daerah", initials: "MF" },
-    { nama: "Ar. Nur Indah, IAI", jabatan: "Bendahara Daerah", initials: "NI" },
-    { nama: "Ar. Hendra Saputra, IAI", jabatan: "Ketua Bidang Pendidikan & PKB", initials: "HS" },
-    { nama: "Ar. Siti Rahmah, IAI", jabatan: "Ketua Bidang Hubungan Antar Lembaga", initials: "SR" },
+    { nama: "Ir. H. Dinamis Yunus Makkajareng, IAI", jabatan: "Ketua Kehormatan / Perintis", initials: "DY" },
+    { nama: "H. Alim Bahri, IAI", jabatan: "Wakil Ketua / Bidang Keprofesian", initials: "AB" },
+    { nama: "[Nama Sekretaris Daerah, IAI]", jabatan: "Sekretaris Daerah", initials: "SD" },
+    { nama: "[Nama Bendahara Daerah, IAI]", jabatan: "Bendahara Daerah", initials: "BD" },
+    { nama: "[Nama Ketua Bidang, IAI]", jabatan: "Ketua Bidang Pendidikan & PKB", initials: "BP" },
+    { nama: "[Nama Ketua Bidang, IAI]", jabatan: "Ketua Bidang Hubungan Antar Lembaga", initials: "BL" },
   ],
   dewan: [
     {
@@ -22,12 +22,12 @@ export const pengurusData = {
     {
       kategori: "Dewan Pertimbangan Organisasi",
       deskripsi: "Memberikan arahan dan pertimbangan strategis terhadap arah kebijakan organisasi daerah.",
-      anggota: ["H. Arief Saleh Sjamsu, IAI", "Ar. Bambang Irawan, IAI"]
+      anggota: ["H. Arief Saleh Sjamsu, IAI", "[Nama Anggota Dewan Pertimbangan]"]
     },
     {
       kategori: "Majelis Kehormatan Etik",
       deskripsi: "Menegakkan etika dan menangani permohonan ataupun perselisihan etik keprofesian arsitek.",
-      anggota: ["Tim Majelis Kehormatan Etik BPD IAI Sultra"]
+      anggota: ["[Nama Ketua Majelis Kehormatan Etik]", "[Nama Anggota Majelis Kehormatan Etik]"]
     }
   ],
   badanLembaga: [
