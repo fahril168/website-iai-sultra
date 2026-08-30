@@ -4,6 +4,7 @@ import { ArrowRight, Award, ShieldCheck, Users, Calendar, MapPin } from 'lucide-
 import HeroSlider from '../components/HeroSlider';
 import KaryaSlider from '../components/KaryaSlider';
 import { beritaList } from '../data/beritaData';
+import { asset } from '../utils/asset';
 
 export default function HomePage() {
   return (
@@ -51,7 +52,7 @@ export default function HomePage() {
             <div className="lg:col-span-6">
               <div className="rounded-brand-lg overflow-hidden shadow-card border border-brand-gray-200 group">
                 <img
-                  src="/assets/img/5.jpg"
+                  src={asset('/assets/img/5.jpg')}
                   alt="Kegiatan IAI Sulawesi Tenggara"
                   className="w-full h-[400px] sm:h-[480px] object-cover transition-transform duration-700 group-hover:scale-105"
                 />

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
+import { asset } from '../utils/asset';
 
 const slides = [
   { image: '/assets/img/1.jpg', title: 'Ikatan Arsitek Indonesia', region: 'Sulawesi Tenggara' },
@@ -34,7 +35,7 @@ export default function HeroSlider() {
                 ? 'opacity-100 scale-110 duration-[10000ms]'
                 : 'opacity-0 scale-100'
             }`}
-            style={{ backgroundImage: `url(${slide.image})` }}
+            style={{ backgroundImage: `url(${asset(slide.image)})` }}
           />
         );
       })}

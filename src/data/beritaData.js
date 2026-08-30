@@ -1,3 +1,5 @@
+import { asset } from '../utils/asset';
+
 export const beritaList = [
   {
     id: 1,
@@ -5,7 +7,7 @@ export const beritaList = [
     category: "Seminar & Workshop",
     date: "28 Agustus 2026",
     excerpt: "IAI Sultra menyelenggarakan seminar nasional tentang prinsip-prinsip arsitektur hijau berkelanjutan dan adaptasi iklim tropis pesisir dengan menghadirkan praktisi terkemuka.",
-    image: "/assets/img/1.jpg"
+    image: asset('/assets/img/1.jpg')
   },
   {
     id: 2,
@@ -13,7 +15,7 @@ export const beritaList = [
     category: "Organisasi",
     date: "15 Juli 2026",
     excerpt: "BPD IAI Sulawesi Tenggara menggelar forum musyawarah daerah guna merumuskan program strategis percepatan sertifikasi keprofesian STRA bagi para arsitek muda daerah.",
-    image: "/assets/img/2.jpg"
+    image: asset('/assets/img/2.jpg')
   },
   {
     id: 3,
@@ -21,7 +23,7 @@ export const beritaList = [
     category: "Regulasi",
     date: "04 Juni 2026",
     excerpt: "Pertemuan koordinasi bersama Dinas Cipta Karya dan PTSP perihal penegakan standar lisensi arsitek serta implementasi Persetujuan Bangunan Gedung (PBG).",
-    image: "/assets/img/5.jpg"
+    image: asset('/assets/img/5.jpg')
   },
   {
     id: 4,
@@ -29,6 +31,6 @@ export const beritaList = [
     category: "Akademis & Riset",
     date: "18 Mei 2026",
     excerpt: "IAI Sultra dan Program Studi Teknik Arsitektur UHO menjalin kemitraan pengkajian dan pendokumentasian tipologi arsitektur tradisional suku-suku di Sulawesi Tenggara.",
-    image: "/assets/img/4.jpg"
+    image: asset('/assets/img/4.jpg')
   }
 ];

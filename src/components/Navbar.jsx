@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import { ChevronDown, Menu, X } from 'lucide-react';
+import { asset } from '../utils/asset';
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -42,7 +43,7 @@ export default function Navbar() {
       : 'bg-transparent text-white'
     : 'bg-white/95 backdrop-blur-md shadow-md text-brand-gray-800 border-b border-brand-gray-100';
 
-  const logoSrc = isHome && !isScrolled ? '/assets/logo.png' : '/assets/logo.png';
+  const logoSrc = asset('/assets/logo.png');
   const logoFilter = isHome && !isScrolled ? 'brightness(0) invert(1)' : 'none';
 
   return (
@@ -257,7 +258,7 @@ export default function Navbar() {
         }`}
       >
         <div className="flex items-center justify-between pb-4 border-b border-brand-gray-100">
-          <img src="/assets/logo.png" alt="IAI Sultra" className="h-8 w-auto" />
+          <img src={asset('/assets/logo.png')} alt="IAI Sultra" className="h-8 w-auto" />
           <button
             onClick={() => setMobileMenuOpen(false)}
             className="p-1.5 rounded-brand hover:bg-brand-gray-100 text-brand-gray-600 focus:outline-none"

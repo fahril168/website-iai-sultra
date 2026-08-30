@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { MapPin, Mail, Phone } from 'lucide-react';
+import { asset } from '../utils/asset';
 
 export default function Footer() {
   return (
@@ -14,7 +15,7 @@ export default function Footer() {
           <div className="space-y-4">
             <Link to="/" className="inline-block">
               <img
-                src="/assets/logo.png"
+                src={asset('/assets/logo.png')}
                 alt="IAI Sulawesi Tenggara"
                 className="h-11 w-auto brightness-0 invert"
               />

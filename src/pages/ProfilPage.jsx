@@ -1,6 +1,7 @@
 import React from 'react';
 import PageHeader from '../components/PageHeader';
 import { CheckCircle2, Shield, Globe2, Award } from 'lucide-react';
+import { asset } from '../utils/asset';
 
 const membershipTypes = [
   {
@@ -97,7 +98,7 @@ export default function ProfilPage() {
             <div className="lg:col-span-5">
               <div className="rounded-brand-lg overflow-hidden shadow-card border border-brand-gray-200">
                 <img
-                  src="/assets/img/5.jpg"
+                  src={asset('/assets/img/5.jpg')}
                   alt="IAI Sulawesi Tenggara"
                   className="w-full h-[440px] object-cover"
                 />

@@ -2,6 +2,7 @@ import React from 'react';
 import PageHeader from '../components/PageHeader';
 import { programKerjaPillars, kompetensiArsitek } from '../data/programKerjaData';
 import { FileText, CheckCircle2, ShieldCheck } from 'lucide-react';
+import { asset } from '../utils/asset';
 
 export default function ProgramKerjaPage() {
   return (
@@ -100,7 +101,7 @@ export default function ProgramKerjaPage() {
                 </p>
                 <div className="flex flex-wrap gap-4 pt-2">
                   <a
-                    href="/PROFIL IAI SULTRA.pdf"
+                    href={asset('/PROFIL IAI SULTRA.pdf')}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-6 py-3 rounded-brand text-xs sm:text-sm font-semibold uppercase tracking-wider bg-maroon hover:bg-maroon-hover text-white transition-colors"
