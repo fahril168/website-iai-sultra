@@ -65,16 +65,16 @@ export default function HomePage() {
 
       {/* 3. VISI & MISI PREVIEW (Maroon Gradient Accent with Aesthetic Waves) */}
       <section className="bg-gradient-to-br from-[#66001a] via-maroon to-[#4a0013] text-white relative overflow-hidden">
-        {/* Top Wave Transition */}
+        {/* Top Wave Transition (More pronounced & wavy) */}
         <div className="w-full overflow-hidden leading-none -mt-px pointer-events-none">
           <svg
-            className="relative block w-full h-10 sm:h-16 lg:h-20 text-brand-warm"
-            viewBox="0 0 1440 120"
+            className="relative block w-full h-16 sm:h-24 lg:h-28 text-brand-warm"
+            viewBox="0 0 1440 180"
             fill="none"
             preserveAspectRatio="none"
           >
             <path
-              d="M0,0 C320,80 640,100 1020,40 C1220,10 1340,30 1440,55 L1440,0 L0,0 Z"
+              d="M0,0 L1440,0 L1440,80 C1300,160 1120,175 940,105 C760,35 560,165 380,135 C200,105 100,30 0,85 Z"
               fill="currentColor"
             />
           </svg>
@@ -83,7 +83,7 @@ export default function HomePage() {
         {/* Glow */}
         <div className="absolute -top-40 -right-40 w-96 h-96 bg-white/10 rounded-full blur-3xl pointer-events-none" />
         
-        <div className="max-w-[1280px] mx-auto px-5 sm:px-6 lg:px-8 py-12 sm:py-20 relative z-10">
+        <div className="max-w-[1280px] mx-auto px-5 sm:px-6 lg:px-8 py-10 sm:py-16 relative z-10">
           <div className="text-center max-w-2xl mx-auto mb-16">
             <span className="text-xs font-semibold uppercase tracking-[3px] text-white/70 block mb-2">
               Landasan Organisasi
@@ -119,16 +119,16 @@ export default function HomePage() {
           </div>
         </div>
 
-        {/* Bottom Wave Transition */}
+        {/* Bottom Wave Transition (More pronounced & wavy) */}
         <div className="w-full overflow-hidden leading-none -mb-px pointer-events-none">
           <svg
-            className="relative block w-full h-10 sm:h-16 lg:h-20 text-white"
-            viewBox="0 0 1440 120"
+            className="relative block w-full h-16 sm:h-24 lg:h-28 text-white"
+            viewBox="0 0 1440 180"
             fill="none"
             preserveAspectRatio="none"
           >
             <path
-              d="M0,65 C320,15 680,105 1040,40 C1240,5 1360,55 1440,45 L1440,120 L0,120 Z"
+              d="M0,180 L1440,180 L1440,95 C1300,20 1140,150 960,95 C780,40 580,165 400,75 C220,-15 100,125 0,65 Z"
               fill="currentColor"
             />
           </svg>
